@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/buy_property"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Buy Property" />
+        <item
+            android:id="@+id/sell_property"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sell Property" />
+        <item
+            android:id="@+id/tokens"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View Your Tokens" />
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Register Your Property" />
+    </group>
+
+
+
+</menu>
